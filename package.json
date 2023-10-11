@@ -1,0 +1,31 @@
+{
+  "name": "@kirklin/prettier-config",
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.9.0",
+  "type": "module",
+  "description": "Prettier config for @kirklin",
+  "license": "MIT",
+  "homepage": "https://github.com/kirklin/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/kirklin/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirklin/prettier-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "format": "prettier --cache --write .",
+    "release": "bumpp && pnpm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "bumpp": "^9.2.0",
+    "prettier": "^3.0.3"
+  },
+  "prettier": "./index.js"
+}
