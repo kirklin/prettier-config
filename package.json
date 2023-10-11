@@ -16,7 +16,7 @@
   "files": [
     "index.js"
   ],
-  "main": "config.js",
+  "main": "index.js",
   "scripts": {
     "format": "prettier --cache --write .",
     "release": "bumpp && pnpm publish"
