@@ -1,6 +1,6 @@
 {
   "name": "@kirklin/prettier-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@8.9.0",
   "type": "module",
   "description": "Prettier config for @kirklin",
